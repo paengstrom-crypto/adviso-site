@@ -4,6 +4,30 @@
 
 ---
 
+## ⚡ Quick Start — open the site locally in 2 steps
+
+> **Getting `ERR_CONNECTION_REFUSED` or "This site can't be reached"?**  
+> That means the dev server isn't running yet. Follow the two steps below — the browser will work as soon as Step 2 prints "Ready".
+
+**Step 1 — open a terminal in the project folder and run:**
+
+```bash
+npm run setup
+```
+
+This installs dependencies and starts the dev server automatically.  
+*(If you already ran `npm install` before, you can use `npm run dev` instead.)*
+
+**Step 2 — while that terminal stays open, open your browser at:**
+
+```
+http://localhost:3000
+```
+
+> ⚠️ **Keep the terminal running.** The moment you close it (or press Ctrl+C), the server stops and `localhost:3000` stops working. Open a *new* terminal tab for any other commands.
+
+---
+
 ## 🚀 Option 1 — Deploy to Vercel (recommended, fastest)
 
 Click the button below to deploy the site to your own Vercel account in ~60 seconds.  
@@ -86,7 +110,8 @@ adviso-site/
 
 | Command | Description |
 |---|---|
-| `npm run dev` | Start dev server at http://localhost:3000 |
+| `npm run setup` | Install dependencies **and** start the dev server (run this first) |
+| `npm run dev` | Start dev server at http://localhost:3000 (if deps already installed) |
 | `npm run build` | Create optimised production build |
 | `npm run start` | Serve production build locally |
 | `npm run lint` | Run ESLint |
