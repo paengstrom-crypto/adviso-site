@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <!-- 
+    FOUNDERS PHOTO PLACEHOLDER
+    Drop the real founder/campus photo at: public/images/founders.jpg (or .png / .webp)
+    Update the <img> src in app/components/About.tsx from "/images/founders-placeholder.svg"
+    to "/images/founders.jpg" — no other code changes required.
+  -->
+  <rect width="640" height="400" rx="16" fill="#0f172a"/>
+  <rect x="1" y="1" width="638" height="398" rx="15" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <!-- Silhouette: two figures -->
+  <!-- Person 1 (left) -->
+  <circle cx="220" cy="155" r="40" fill="#1e293b"/>
+  <path d="M140 320 Q160 230 220 220 Q280 230 300 320 Z" fill="#1e293b"/>
+  <!-- Person 2 (right) -->
+  <circle cx="420" cy="155" r="40" fill="#1e293b"/>
+  <path d="M340 320 Q360 230 420 220 Q480 230 500 320 Z" fill="#1e293b"/>
+  <!-- Campus icon -->
+  <rect x="290" y="260" width="60" height="50" rx="2" fill="#164e63"/>
+  <rect x="303" y="275" width="14" height="20" rx="1" fill="#22d3ee" opacity="0.6"/>
+  <rect x="323" y="275" width="14" height="20" rx="1" fill="#22d3ee" opacity="0.6"/>
+  <!-- Label -->
+  <text x="320" y="370" font-family="Inter, Helvetica, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    Drop founders photo at public/images/founders.jpg
+  </text>
+</svg>
